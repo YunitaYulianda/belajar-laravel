@@ -24,7 +24,7 @@
     />
 
     <!-- ============= CSS ============= -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body class="">
     <!-- ========== KETENTUAN ========== -->
@@ -48,7 +48,7 @@
       <div class="btns">
           <a href="" class="btn">Unduh</a>
           <a href="" class="btn">Kirim Ke Rumah Sakit</a>
-          <a href="opsi.html" class="btn back">Kembali</a>
+          <a href="opsi" class="btn back">Kembali</a>
       </div>
     </section>
 

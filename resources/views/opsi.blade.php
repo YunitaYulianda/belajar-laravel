@@ -76,7 +76,7 @@
       <div class="opsi-list">
         <a class="btn" href="isi-data">ISI DATA</a>
         <a class="btn" href="upload-berkas">UPLOAD BERKAS</a>
-        <a class="btn" href="unduh-surat">UNDUH SURAT</a>
+        <a class="btn" href="unduh-berkas">UNDUH SURAT</a>
         <a class="btn back" href="beranda">KEMBALI</a>
       </div>
     </main>

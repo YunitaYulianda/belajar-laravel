@@ -16,13 +16,10 @@
         <header><center><img src="img/logo SSR orange.png" width="100" height="80"><center></header>
         <hr>
         <ul>
-            <li><a href="#"><i class="fas fa-question-circle"></i>Ketentuan Pembuatan Surat</a></li>
-            <li><a href="#"><i class="fas fa-phone"></i>Contact Person</a></li>
+            <li><a href="ketentuan"><i class="fas fa-question-circle"></i>Ketentuan Pembuatan Surat</a></li>
+            <li><a href="contact-person"><i class="fas fa-phone"></i>Contact Person</a></li>
         </ul>
     </div>
-    <section>
-        
-    </section>
 
 
 </body>

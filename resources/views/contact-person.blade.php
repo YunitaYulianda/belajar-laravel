@@ -24,7 +24,7 @@
     />
 
     <!-- ============= CSS ============= -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body class="">
     <!-- ========== KETENTUAN ========== -->
@@ -33,7 +33,7 @@
       <h2>Hubungi : 822-6670-1234</h2>
       <h2>Atau</h2>
       <h2>Email : puskesmas@gmail.com</h2>
-      <a href="dashboard.html" class="btn btn-cp">Oke</a>
+      <a href="beranda" class="btn btn-cp">Oke</a>
     </section>
 
     <!-- ============= JS ============ -->

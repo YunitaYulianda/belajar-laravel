@@ -56,3 +56,19 @@ Route::get('/opsi', function () {
 Route::get('/isi-data', function () {
     return view('isi-data');
 });
+
+Route::get('/upload-berkas', function () {
+    return view('upload-berkas');
+});
+
+Route::get('/unduh-berkas', function () {
+    return view('unduh-berkas');
+});
+
+Route::get('/contact-person', function () {
+    return view('contact-person');
+});
+
+Route::get('/ketentuan', function () {
+    return view('ketentuan');
+});
