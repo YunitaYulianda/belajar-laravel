@@ -16,3 +16,43 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/Opsi', function () {
+    return view('Opsi');
+});
+
+Route::get('/Formisidata', function () {
+    return view('Formisidata');
+});
+
+Route::get('/popupgaris3', function () {
+    return view('popupgaris3');
+});
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+Route::get('/index', function () {
+    return view('index');
+});
+
+Route::get('/daftar', function () {
+    return view('daftar');
+});
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+Route::get('/beranda', function () {
+    return view('beranda');
+});
+
+Route::get('/opsi', function () {
+    return view('opsi');
+});
+
+Route::get('/isi-data', function () {
+    return view('isi-data');
+});

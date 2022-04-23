@@ -1,0 +1,144 @@
+/* ==================== FONTS ==================== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* ================== VARIABLES ================== */
+:root {
+  /* Colors */
+  --first-color: rgba(222, 113, 25, 1);
+  --first-color-alt: rgba(17, 105, 121, 1);
+  --title-color: rgba(0, 0, 0, 1);
+  --text-color: rgba(73, 73, 73, 1);
+  --link-color: rgba(36, 99, 134, 1);
+  --body-color: rgb(255, 255, 255);
+  --input-color: rgba(196, 196, 196, 1);
+
+  /*========== Font and typography ==========*/
+  --body-font: "Poppins", sans-serif;
+  --biggest-font-size: 2rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+}
+
+/* ========== BASE ========== */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  resize: none;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ========== NAVBAR ========== */
+.nav-box-shadow {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-logo img {
+  width: 131px;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: var(--title-color);
+}
+
+.btn {
+  background-color: var(--first-color);
+  color: #d8d8d8;
+  font-weight: 700;
+}
+
+.btn-md {
+  width: 150px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.notification {
+  text-align: center;
+  width: 30px;
+}
+
+.profile-edit {
+  display: flex;
+  font-size: 25px;
+}
+
+.profile-edit .bx {
+  margin-left: 10px;
+}
+
+.profile-pict {
+  border-radius: 50%;
+  width: 60px;
+}
+
+main.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.dashboard-title {
+  font-size: 56px;
+  color: var(--first-color);
+  font-weight: bolder;
+}
+
+.profile-img {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.profile-data {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  width: 900px;
+  border-radius: 25px;
+  background: var(--text-color);
+  color: var(--body-color);
+  text-align: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.profile-data .bx {
+  font-size: 30px;
+}
+
+main.dashboard .btn {
+  width: 366px;
+  height: 60px;
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: 700;
+  margin-top: 20px;
+}

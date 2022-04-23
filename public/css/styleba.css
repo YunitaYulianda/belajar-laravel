@@ -1,0 +1,114 @@
+label {
+  color: rgb(126, 126, 126);
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+header {
+  margin-left: 5em;
+  background-attachment: fixed;
+  resize: none;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-48%);
+  transform: translateX(-48%);
+}
+
+body {
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+input {
+  opacity: 10;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  /* -moz-box-shadow: 3px 3px 4px rgb(121, 121, 121);
+  -webkit-box-shadow: 3px 3px 4px rgb(121, 121, 121);
+  box-shadow: 3px 3px 4px rgb(121, 121, 121);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#cccccc')"; */
+}
+
+.warna {
+  height: 40px;
+  width: 400px;
+  background-color: rgb(194, 194, 194);
+  text-indent: 10px;
+  size: relative;
+}
+
+div {
+  overflow: auto;
+  resize: none;
+  width: 1366px;
+  height: 630px;
+  background-repeat: no-repeat;
+  background-position-x: 45em;
+  background-position-y: -10em;
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
+hr {
+  margin-top: 0.5em;
+  display: block;
+  color: rgb(194, 194, 194);
+  /* margin-before: 0.5em; 
+    margin-after: 0.5em; */
+  overflow: hidden;
+  height: 5%;
+  border-style: solid;
+  border-width: 8px;
+}
+
+.gradien {
+  background: linear-gradient(323deg, #ececec, #eee8e2, #efe3d8, #f1dfce, #f2dac4, #f4d6ba, #f5d1b0);
+  background-size: 1400% 1400%;
+
+  -webkit-animation: AnimationName 8s ease infinite;
+  -moz-animation: AnimationName 8s ease infinite;
+  animation: AnimationName 8s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 14% 0%;
+  }
+  50% {
+    background-position: 87% 100%;
+  }
+  100% {
+    background-position: 14% 0%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 14% 0%;
+  }
+  50% {
+    background-position: 87% 100%;
+  }
+  100% {
+    background-position: 14% 0%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 14% 0%;
+  }
+  50% {
+    background-position: 87% 100%;
+  }
+  100% {
+    background-position: 14% 0%;
+  }
+}
